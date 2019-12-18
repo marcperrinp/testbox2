@@ -7,7 +7,7 @@ services:
     container_name: testbox2
     environment:
       - APPLICATION_PORT=3310
-      - DATABASE_URL=postgres://gglousjeiimdhh:3444bb184e9593dc3a1103107ca35223ef8b861da6eebbefe7c1bb1f21358329@ec2-54-247-92-167.eu-west-1.compute.amazonaws.com:5432/dfjuk6pqt2m384
+      - DATABASE_URL=postgres://kvwyfpgsdfercg:2ee265a338459b8af633aa913432ad45d2b6134a1c58e6f5f2525f401fd7962e@ec2-54-75-238-138.eu-west-1.compute.amazonaws.com:5432/d1emcctn1r4551
       - DATABASE_SCHEMA=public
       - DATABASE_SSL=false
       - FOREST_AUTH_SECRET=21c68718de6f2a853301affaf18360178b4c826a30178d11
