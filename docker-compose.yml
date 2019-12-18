@@ -7,7 +7,7 @@ services:
     container_name: testbox2
     environment:
       - APPLICATION_PORT=3310
-      - DATABASE_URL=postgres://forest:secret@host.docker.internal:5417/forest_postgres
+      - DATABASE_URL=postgres://bnjkzntbapnmdn:18534be735d3c2ffe16221ef1a661b41e1bd99a498d171b80d4a9e4a7b1b09ce@ec2-54-75-249-16.eu-west-1.compute.amazonaws.com:5432/db0jbnc73pi70s
       - DATABASE_SCHEMA=public
       - DATABASE_SSL=false
       - FOREST_AUTH_SECRET=21c68718de6f2a853301affaf18360178b4c826a30178d11
