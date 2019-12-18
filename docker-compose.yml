@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: testbox2
+    environment:
+      - APPLICATION_PORT=3310
+      - DATABASE_URL=postgres://forest:secret@host.docker.internal:5417/forest_postgres
+      - DATABASE_SCHEMA=public
+      - DATABASE_SSL=false
+      - FOREST_AUTH_SECRET=21c68718de6f2a853301affaf18360178b4c826a30178d11
+      - FOREST_ENV_SECRET=41163c2720eac78d5657750686eb28c5ae84c9e700721a94efecb46fb962d944
+    ports:
+      - "3310:3310"
+    volumes:
+      - ./:/usr/src/app
