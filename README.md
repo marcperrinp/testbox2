@@ -26,6 +26,7 @@ After you've cloned your team's Forest Admin repository, use the following comma
 $ forest branch <your-branch-name>
 ```
 
-A branch is a fork of your *Production* environment's UI. Any layout changes should be done - using the [Layout Editor mode](https://docs.forestadmin.com/documentation/reference-guide/views/using-the-layout-editor-mode) - from your (local) branch and later deployed to Production.
+A branch is a fork of your *Production* environment's UI. 
+Any layout changes should be done - using the [Layout Editor mode](https://docs.forestadmin.com/documentation/reference-guide/views/using-the-layout-editor-mode) - from your (local) branch and later deployed to Production.
 
-Note this process only handles your admin frontend's changes, _not_ your admin *backend*'s code updates which should be versioned and deployed separately. Check out our recommended [Development Workflow]() for more information.
+Note this process only handles your admin **frontend**'s changes, _not_ your admin **backend**'s code updates which should be versioned and deployed separately. Check out our recommended [Development Workflow]() for more information.
