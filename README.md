@@ -12,7 +12,7 @@ Once you've got Forest Admin up and running, check out our [Setup Guide](https:/
 One of the recommended steps is to _Deploy to Production_. This will unlock the use of our [Forest CLI](https://www.npmjs.com/package/forest-cli) which lets you develop according to our recommended [Development Workflow]().
 
 
-### How to get started if your joining a team who uses Forest Admin
+### How to get started if you're joining a team who uses Forest Admin
 
 To develop on Forest Admin, you need to install [Forest CLI](https://www.npmjs.com/package/forest-cli):
 
